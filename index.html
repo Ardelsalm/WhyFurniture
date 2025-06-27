@@ -62,13 +62,23 @@
         .flow-card {
             border: 2px solid #97D1E5;
         }
+        .whatsapp-icon-img {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            flex-shrink: 0;
+        }
+        .whatsapp-icon-img:hover {
+            opacity: 0.8;
+        }
     </style>
 </head>
 <body class="text-gray-800">
 
     <header class="bg-white shadow-md sticky top-0 z-50">
         <div class="container mx-auto px-6 py-4 flex justify-between items-center">
-             <img src="https://i.postimg.cc/Hnm6dFkZ/Sabhan-Furniture-Interior-Logo-png.png" alt="Sabhan Furniture & Interiors Logo" class="h-20 md:h-24">
+            <!-- Removed Sabhan Furniture logo from top banner -->
             <h2 class="text-lg font-semibold text-[#366E8A] hidden md:block">Investor Deck: Sabhan Opportunity</h2>
         </div>
     </header>
@@ -214,10 +224,42 @@
     <footer class="bg-[#003F5C] text-white text-center p-6 mt-12">
         <p class="font-bold">A Strategic Investment for Sustained Growth.</p>
         <p class="text-sm text-gray-300 mt-2">Sabhan Furniture is poised to lead Kerala's furniture retail evolution. Join us.</p>
-        <div class="mt-6">
-            <h4 class="text-xl font-semibold text-white">To know more about investment opportunities and franchisee models:</h4>
-            <p class="text-lg text-white mt-2">Contact Franchisee Manager: <a href="tel:9072698111" class="text-[#97D1E5] hover:underline">9072698111</a></p>
-            <p class="text-lg text-white">Email: <a href="mailto:info@sabhan.in?subject=Franchisee" class="text-[#97D1E5] hover:underline">info@sabhan.in</a> (Subject Line: Franchisee)</p>
+        
+        <div class="mt-8 bg-white p-6 rounded-lg shadow-xl text-gray-800 max-w-xl mx-auto">
+            <h4 class="text-xl font-semibold text-[#003F5C] mb-4">To know more about investment opportunities and franchisee models:</h4>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-6 gap-x-8 text-left">
+                <div class="flex items-center space-x-3">
+                    <span class="text-2xl text-[#366E8A]">📞</span>
+                    <div>
+                        <p class="font-semibold">Franchisee Manager:</p>
+                        <a href="tel:9072698111" class="text-[#003F5C] hover:underline">9072698111</a>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-3">
+                    <span class="text-2xl text-[#366E8A]">✉️</span>
+                    <div>
+                        <p class="font-semibold">Email:</p>
+                        <a href="mailto:info@sabhan.in?subject=Franchisee" class="text-[#003F5C] hover:underline">info@sabhan.in</a>
+                        <p class="text-sm text-gray-500">(Subject Line: Franchisee)</p>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-3">
+                    <span class="text-2xl text-[#366E8A]">🌐</span>
+                    <div>
+                        <p class="font-semibold">Website:</p>
+                        <a href="https://sabhan.in/" target="_blank" class="text-[#003F5C] hover:underline">sabhan.in</a>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-3">
+                    <a href="https://wa.me/9072698111" target="_blank">
+                        <img src="https://i.postimg.cc/zDjXdkC8/whatsapp-business-logo.png" alt="WhatsApp Business Logo" class="whatsapp-icon-img">
+                    </a>
+                    <div>
+                         <p class="font-semibold">WhatsApp:</p>
+                         <a href="https://wa.me/9072698111" target="_blank" class="text-[#003F5C] hover:underline">9072698111</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
 
